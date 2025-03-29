@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Noto Serif', sans-serif;    
+    font-size: 108%;
+    background-color: #f5f5dc;
+}
+
+/* Configuração da Navbar */
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    background-color: rgb(132, 204, 132);
+    border-radius: 50px;
+    
+}
+.navbar nav {
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+    background-color: rgb(132, 204, 132);  
+}
+.btn {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.616);
+    transform: scale(1.15);
+}
+
+.nav-container {
+    width: 100%;
+    background-color: rgb(132, 204, 132);
+    padding: 5px 10px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: 10px auto; 
+}

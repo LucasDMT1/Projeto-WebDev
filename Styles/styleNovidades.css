@@ -40,3 +40,27 @@ a:hover {
     max-width: 1000px;
     margin: 10px auto; 
 }
+
+/* Configuração da Imagem */
+
+.imagem-container {
+    width: 600px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+/* Configuração do Texto */
+.text-container {
+    background-color: rgb(132, 204, 132);
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    max-width: 750px;
+    color: black;
+    margin: 20px auto;
+    position: absolute; bottom: 210px; right: 100px; left: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.text-container p{
+    background-color: rgb(132, 204, 132);
+}

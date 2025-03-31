@@ -40,3 +40,32 @@ a:hover {
     max-width: 1000px;
     margin: 10px auto; 
 }
+
+/* Configuração Formulario */
+
+.form-container {
+    background-color: rgb(132, 204, 132);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    max-width: 750px;
+    max-height: 500px;
+    color: black;
+    margin: 20px auto;
+    position: absolute; bottom: 210px; right: 100px; left: 100px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.form-container h1, form, label{
+    background-color: rgb(132, 204, 132);
+}
+label , button{
+    display: block;
+}
+
+.image-container {
+    width: 300px;
+    border-radius: 50%;
+    position: absolute; bottom: 150px; right: 100px; left: 375px;
+}
